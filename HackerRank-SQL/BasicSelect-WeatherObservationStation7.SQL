@@ -13,3 +13,6 @@ or CITY LIKE "%u"
 select distinct CITY
 from STATION
 where CITY REGEXP '[aeiou]$'
+
+-- Note.
+--- BasicSelect-WeatherObservationStation6 참고

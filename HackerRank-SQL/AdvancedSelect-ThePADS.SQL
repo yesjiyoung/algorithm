@@ -1,0 +1,10 @@
+select concat(name, '(', left(occupation,1), ')')
+from occupations
+order by name;
+
+select concat('There are a total of ',count(*) ,' ',lower(occupation),'s.')
+from occupations
+group by occupation
+order by count(*), occupation;
+
+-- concat 을 알게됨 ㅎ 

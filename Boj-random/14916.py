@@ -8,7 +8,7 @@ while True:
         count += remains // 5
         break
 
-    else: # 5의 배수가 아니야 
+    else: # 5의 배수가 아니라면, 2씩 빼기 
         remains -= 2 
         count += 1
     

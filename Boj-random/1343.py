@@ -22,6 +22,7 @@ def get_polyomino(n):
     else:
         return 'AAAA' * a_quotient + 'BB'  + '.'
 
+
 if __name__ == '__main__':
     board=sys.stdin.readline().rstrip()
     answer = ''
